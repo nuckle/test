@@ -40,7 +40,7 @@ jobs:
       - name: Build
         env:
           repo: ${{ steps.repo-name.outputs.repository-name }}
-        run: npm run build --repository=/repo/
+        run: npm run build --repository=/{$repo}/
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
