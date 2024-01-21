@@ -23,8 +23,8 @@ export default defineConfig({
 	},
 	plugins: [
 		viteSvgSpriteWrapper({
-			icons: 'src/img/svg/*.svg',
-			outputDir: 'src/img',
+			icons: './src/img/svg/*.svg',
+			outputDir: './src/img',
 			sprite: {
 				svg: {
 					dimensionAttributes: false,
