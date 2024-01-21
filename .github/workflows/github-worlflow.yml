@@ -39,8 +39,8 @@ jobs:
         run: npm install
       - name: Build
         env:
-          repo: ${{ steps.repo-name.outputs.repository-name }}
-        run: npm run build --repository=//${{ env.repo }}//
+          repo: ${{ github.event.repository.name }}
+        run: npm run build --repository=/${{ env.repo }}/
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
