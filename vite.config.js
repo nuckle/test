@@ -38,7 +38,7 @@ export default defineConfig({
 				'/fonts/MinecraftRegular.woff2',
 				'/serviceworker.js',
 				'/main.js',
-				'./img/sprite.svg',
+				'/img/sprite.svg',
 			],
 			registerType: 'autoUpdate',
 			devOptions: {
