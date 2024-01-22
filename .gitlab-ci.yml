@@ -10,7 +10,7 @@ pages:
       - node_modules/
   script:
     - npm install
-    - npm run build --repository='$CI_PROJECT_NAME'
+    - npm run build --repository=$CI_PROJECT_NAME
     - cp -a dist/. public/
   artifacts:
     paths:
