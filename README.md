@@ -26,7 +26,7 @@ You can view the page using one of the following URLs:
 
 ```sh
 $ git clone https://gitlab.com/w973/minecraft-offline-uuid-generator.git # or https://nuckle.github.io/minecraft-offline-uuid-generator/
-$ cd minecraft-offline-uuid-generator
+$ cd minecraft-offline-uuid-generator/
 $ npm install i
 $ npm run build
 ```
