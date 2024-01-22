@@ -19,8 +19,8 @@ You can view the page using one of the following URLs:
 
 ## Requirements
 
-- Node JS 18.x.x
-- git
+- `Node.JS` 18.x.x
+- `git`
 
 ## Build 
 
